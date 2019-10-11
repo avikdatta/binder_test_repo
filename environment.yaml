@@ -1,0 +1,17 @@
+name: env1
+channels:
+  - conda-forge
+  - r 
+  - bioconda
+dependencies:
+  - python==3.6.9
+  - pandas==0.24.1
+  - r-base==3.6.0
+  - bioconductor-edger==3.26.5
+  - bioconductor-deseq2==1.24.0
+  - samtools
+  - salmon
+  - pip:
+    - matplotlib
+    - seaborn
+    - pandas
