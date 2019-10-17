@@ -8,3 +8,4 @@ if (!requireNamespace("BiocManager", quietly = TRUE))
 
 BiocManager::install("DESeq2")
 BiocManager::install("edgeR")
+install.packages("shinydashboard")
