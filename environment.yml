@@ -1,13 +1,11 @@
 channels:
   - conda-forge
   - bioconda
-  - r
 dependencies:
   - python==3.6.9
   - pandas==0.24.1
   - samtools
   - salmon
-  - rstudio
   - pip
   - pip:
     - matplotlib
