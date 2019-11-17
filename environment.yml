@@ -1,11 +1,16 @@
 channels:
   - conda-forge
   - bioconda
+  - r
 dependencies:
   - python==3.6.9
-  - pandas==0.24.1
+  - pandas==0.25.0
   - samtools
-  - salmon
+  - rpy2
+  - r-base
+  - java-jdk=8
+  - pyarrow
+  - pyspark
   - pip
   - pip:
     - matplotlib
