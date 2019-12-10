@@ -11,6 +11,7 @@ dependencies:
   - java-jdk=8
   - pyarrow
   - pyspark
+  - r-seurat==3.1.0
   - pip
   - pip:
     - matplotlib
