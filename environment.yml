@@ -12,7 +12,7 @@ dependencies:
   - r-seurat=3.1.1
   - rstudio=1.1.456
   - r-irkernel=1.1
-  - pyarrow=1.15.1
+  - pyarrow=0.15.1
   - bioconductor-biocinstaller=1.32.1
   - pip
   - pip:
