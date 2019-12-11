@@ -21,3 +21,4 @@ dependencies:
     - seaborn
     - sklearn
     - numpy
+    - tqdm
