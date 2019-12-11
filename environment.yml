@@ -9,7 +9,9 @@ dependencies:
   - r-base
   - java-jdk=8
   - pyspark
-  - r-seurat==3.1.0
+  - r-seurat==3.0.2
+  - rstudio
+  - r-irkernel
   - pip
   - pip:
     - matplotlib
