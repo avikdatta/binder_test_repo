@@ -3,19 +3,20 @@ channels:
   - bioconda
   - r
 dependencies:
-  - python==3.6.9
-  - pandas==0.25.0
-  - rpy2
-  - r-base
-  - java-jdk=8
-  - pyspark
-  - r-seurat==3.0.2
-  - rstudio
-  - r-irkernel
+  - python=3.6.9
+  - pandas=0.25.3
+  - rpy2=3.1.0
+  - r-base=3.6.1
+  - java-jdk=8.0.112
+  - pyspark=2.4.4
+  - r-seurat=3.1.1
+  - rstudio=1.1.456
+  - r-irkernel=1.1
+  - pyarrow=1.15.1
+  - bioconductor-biocinstaller=1.32.1
   - pip
   - pip:
     - matplotlib
     - seaborn
-    - pandas
     - sklearn
     - numpy
