@@ -15,6 +15,7 @@ dependencies:
   - pyarrow=0.15.1
   - bioconductor-biocinstaller=1.32.1
   - scanpy=1.4.4
+  - bioconductor-scran=1.14.1
   - pip
   - pip:
     - matplotlib
@@ -22,3 +23,4 @@ dependencies:
     - sklearn
     - numpy
     - tqdm
+    - scrublet
