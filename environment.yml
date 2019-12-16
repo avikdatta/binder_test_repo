@@ -24,3 +24,5 @@ dependencies:
     - numpy
     - tqdm
     - scrublet
+    - cmake
+    - pegasuspy
